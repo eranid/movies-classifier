@@ -8,16 +8,15 @@ This is the result of the assignment you guys gave me.
 
 4. You don't need to run anything, except do the following:
 
-
 	- make sure you are running python 2.7(.3)
 	- make sure you have ipython installed (sudo apt-get install ipython)
-	- make sure you have the LATEST(at least 0.13 i think, 0.14 is the current) notebook installed (see http://ipython.org/ipython-doc/dev/interactive/htmlnotebook.html):
+	- make sure you have the LATEST(at least 0.13 i think, 0.14 is the current) notebook installed (see http://ipython.org/ipython-doc/dev/interactive/htmlnotebook.html ):
 		- The following should do it:
 		>> sudo apt-get install python-zmq libzmq libzmq-dev
 		>> sudo easy_install ipython[zmq,qtconsole,notebook,test]
 	- in the src folder of this repository, run:
 		>> ipython notebook --pylab
-	- a browser window should open up, choose the everything.me notebook
+	- a browser window should open up, choose the movies notebook
 	- now you can just read the research and see the code. It walks you through my mental and dev process, culminating in the classification of the test_movies.json file.
 
 5. If you are itching to run it yourselves, you can do that, just make sure you have everything installed to comply with the "
