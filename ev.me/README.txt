@@ -11,8 +11,10 @@ This is the result of the assignment you guys gave me.
 
 	- make sure you are running python 2.7(.3)
 	- make sure you have ipython installed (sudo apt-get install ipython)
-	- make sure you have the LATEST(at least 0.13 i think, 0.14 is the current) (notebook installed (see http://ipython.org/ipython-doc/dev/interactive/htmlnotebook.html)
-	- in the sec folder of this repository, run:
+	- make sure you have the LATEST(at least 0.13 i think, 0.14 is the current) notebook installed (see http://ipython.org/ipython-doc/dev/interactive/htmlnotebook.html):
+		- The following should do it:
+		>> sudo easy_install ipython[zmq,qtconsole,notebook,test] 
+	- in the src folder of this repository, run:
 		>> ipython notebook --pylab
 	- a browser window should open up, choose the everything.me notebook
 	- now you can just read the research and see the code. It walks you through my mental and dev process, culminating in the classification of the test_movies.json file.
