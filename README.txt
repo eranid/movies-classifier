@@ -21,6 +21,11 @@ This is the result of the assignment you guys gave me.
 
 5. If you are itching to run it yourselves, you can do that, just make sure you have everything installed to comply with the "
 imports" in the first cell.
+
+6. Obviously the large datafiles are not in the repository...
+You'll need the initial data file (movies_test.json and movies_train.json), so place them in the same folder as the .ipynb file)
+
+7. The dependencies
 The needed import are (most are inherent in python 2.7)
 
 json
@@ -33,7 +38,7 @@ re
 numpy (that is kind of a pickle if you dont have it, as it does not come with python automatically. sudo apt-get install python-numpy should do it I think.)
 os
 
-6. If you are runnint it yourselves, ge patient, the whole thing can take up to 15 minutes i'd say, to train the classifiers.
+6. If you are running it yourselves, be patient, the whole thing can take up to 15 minutes i'd say, to train the classifiers.
 
 
 That's it.
